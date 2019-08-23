@@ -1,0 +1,13 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://cdn3.iconfinder.com/data/icons/stars-5/512/4_stars-512.png');
+  background-size: cover;
+}
+
+img {
+  width: 80%;
+  height: 35vh;
+}

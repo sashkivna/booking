@@ -1,0 +1,35 @@
+<form [formGroup]="hotelForm" (ngSubmit)="addHotel()">
+
+  <label>
+    Hotel:
+    <input type="text" formControlName="hotel">
+  </label>
+
+  <label>
+    Address:
+    <input type="text" formControlName="address">
+  </label>
+
+  <label>
+    Amount per night:
+    <input type="text" formControlName="amount">
+  </label>
+
+  <label>
+    Description:
+    <input type="text" formControlName="description">
+  </label>
+
+  <label>
+    Picture:
+    <input type="text" formControlName="picture">
+  </label>
+
+  <label>
+    Stars:
+    <input type="text" formControlName="stars">
+  </label>
+
+  <button type="submit">Add hotel</button>
+
+</form>

@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{hotel.hotel}}</mat-card-title>
+    <mat-card-subtitle>{{hotel.address}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{hotel.picture}}" alt="{{hotel.hotel}}">
+  <mat-card-content>
+    <p>
+      1 night - {{hotel.amount}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>BOOK</button>
+  </mat-card-actions>
+</mat-card>
